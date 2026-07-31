@@ -1,6 +1,14 @@
 import express from 'express';
+import swaggerUi from 'swagger-ui-express';
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import path from 'path';
 
 const app = express();
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const swaggerDocument = JSON.parse(readFileSync(path.join(__dirname, '..', 'openapi.json'), 'utf8'));
 
 app.use(express.json());
 
@@ -9,6 +17,8 @@ const tasks = [
   { id: 2, title: 'Write report', done: true },
   { id: 3, title: 'Call mom', done: false },
 ];
+
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.get('/describe', (req, res) => {
   return res.json({
