@@ -1,6 +1,5 @@
-import app from './src/app';
+import app from './src/app.js';
 
-app.listen(3000 , (req,res)=>{
-  console.log("Hello Message");
-  return res.status(200);
-})
+app.listen(3000, () => {
+  console.log('Server listening on port 3000');
+});
