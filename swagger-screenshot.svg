@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f6f8fa"/>
+  <rect x="40" y="40" width="1120" height="720" rx="12" fill="white" stroke="#d0d7de"/>
+  <rect x="60" y="70" width="1080" height="60" rx="8" fill="#f6f8fa"/>
+  <text x="90" y="110" font-family="Arial, sans-serif" font-size="28" fill="#1f2328">Swagger UI</text>
+  <rect x="80" y="150" width="220" height="28" rx="6" fill="#0969da"/>
+  <text x="95" y="170" font-family="Arial, sans-serif" font-size="16" fill="white">GET /tasks</text>
+  <rect x="80" y="205" width="260" height="28" rx="6" fill="#1f883d"/>
+  <text x="95" y="225" font-family="Arial, sans-serif" font-size="16" fill="white">POST /tasks</text>
+  <rect x="80" y="260" width="320" height="28" rx="6" fill="#8250df"/>
+  <text x="95" y="280" font-family="Arial, sans-serif" font-size="16" fill="white">PUT /tasks/{id}</text>
+  <rect x="80" y="315" width="300" height="28" rx="6" fill="#cf222e"/>
+  <text x="95" y="335" font-family="Arial, sans-serif" font-size="16" fill="white">DELETE /tasks/{id}</text>
+  <text x="80" y="390" font-family="Arial, sans-serif" font-size="22" fill="#1f2328">Task API</text>
+  <text x="80" y="425" font-family="Arial, sans-serif" font-size="18" fill="#59636e">Simple CRUD API for managing tasks</text>
+  <rect x="80" y="455" width="1040" height="240" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="110" y="495" font-family="Arial, sans-serif" font-size="18" fill="#1f2328">Try it out</text>
+  <text x="110" y="530" font-family="Arial, sans-serif" font-size="16" fill="#59636e">Create, list, update, and delete tasks from the browser.</text>
+</svg>
